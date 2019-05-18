@@ -17,10 +17,21 @@
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
     "http://dl.platformio.org/packages/manifest.json"
   ],
+  "frameworks": {
+    "arduino": {
+      "package": "framework-linuxduino",
+      "script": "builder/frameworks/arduino.py"
+    }
+  },
   "packages": {
     "toolchain-gcclinux64": {
       "type": "toolchain",
       "version": "~1.40801.0"
+    },
+    "framework-linuxduino": {
+      "type": "framework",
+      "optional": true,
+      "version": "https://github.com/jeremypoulter/Linuxduino.git"
     }
   }
 }

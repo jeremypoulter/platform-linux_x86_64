@@ -1,0 +1,22 @@
+{
+  "build": {
+    "core": "linuxduino",
+    "cpu": "x86_64",
+    "extra_flags": "",
+    "variant": "generic"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "upload": {
+    "maximum_ram_size": 65536,
+    "maximum_size": 524288,
+    "protocol": "gdb",
+    "protocols": [
+      "gdb"
+    ]
+  },
+  "name": "Generic Linuxduino",
+  "url": "https://github.com/jeremypoulter/Linuxduino",
+  "vendor": "Jeremy Poulter"
+}
